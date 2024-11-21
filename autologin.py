@@ -72,7 +72,7 @@ def main(logger):
     time.sleep(random.randint(1,3))
 
     logger.debug('navigating to login page')
-    browser.find_element_by_link_text("Domains").click()
+    browser.find_element_by_link_text("Main Menu").click()
     time.sleep(random.randint(1,3))
 
     logger.debug('submit login form')
