@@ -2,3 +2,4 @@ venv
 *.pyc
 geckodriver.log
 afraid-autologin.log
+settings.py
