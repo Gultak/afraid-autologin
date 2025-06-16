@@ -2,5 +2,3 @@ venv
 *.pyc
 geckodriver.log
 afraid-autologin.log
-geckodriver-v0.23.0-linux64.tar.gz
-ghostdriver.log
