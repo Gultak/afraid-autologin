@@ -1,10 +1,11 @@
 # Afraid Autologin
 
 ## NOTE: Sunsetting this, as the same can be achieved by a simple web call:
-    ```
-	$ curl 'https://freedns.afraid.org/zc.php?step=2' --data-raw 'username=${username}&password=${password}&submit=Login&remote=&from=L2RvbWFpbi8%3D&action=auth'
-    ```
-    (ATTENTION: ${username} and ${password} have to be URL-encoded here).
+    
+	$ curl 'https://freedns.afraid.org/zc.php?step=2' \
+	   --data-raw 'username=${username}&password=${password}&submit=Login&remote=&from=L2RvbWFpbi8%3D&action=auth'
+    
+  (ATTENTION: ${username} and ${password} have to be URL-encoded here).
 
 ##
 
