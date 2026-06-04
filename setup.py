@@ -5,4 +5,5 @@ setup(
     name='afraid-autologin',
     version='0.0.1',
     scripts=['autologin.py',],
+    py_modules = ['settings', 'autologin'],
 )
